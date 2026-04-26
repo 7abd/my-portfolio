@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-12 gap-8 items-center">
         
         
         <motion.div
@@ -22,17 +22,18 @@ const HeroSection = () => {
               Hello, I&apos;m
             </span>
             <br />
+            
             <TypeAnimation
-              sequence={[
-                "Abdennour",
-                1500,
-                "Web Developer",
-                1500,
-                "Mobile Developer",
-                1500,
-                "UI/UX Designer",
-                1500,
-              ]}
+             sequence={[
+              "Abdennour",
+              1500,
+              "Frontend Engineer",
+              2000,
+              "React & Next.js Developer",
+              2000,
+              "Building Secure Web Apps",
+              2000,
+            ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -41,7 +42,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl max-w-2xl">
-            From Mama Africa 🌍 to the world — building modern, responsive web experiences.
+          Frontend Engineer focused on building secure, structured, and production-ready web applications.
           </p>
 
           
@@ -51,10 +52,10 @@ const HeroSection = () => {
               className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 
                          text-white font-semibold shadow hover:bg-slate-200 hover:text-blue-700 transition"
             >
-              Hire Me
+              Contact Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1LJu1D3jXfDB2UpQkZntuqODGkaMg8-CQ/view?usp=drive_link"
               className="px-6 py-3 rounded-full border border-blue-500 text-blue-500 
                          font-semibold hover:bg-blue-600 hover:text-white transition"
             >
@@ -68,17 +69,16 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
-          className="col-span-4 place-self-center"
+          className="col-span-4 place-self-center w-full flex justify-center sm:justify-end"
         >
-          <div className="rounded-full bg-[#000000] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden shadow-lg">
-            <Image
-              src="/hero-image2.jpg"
-              alt="hero image"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
+          <Image
+            src="/6830c279-562c-4634-a269-04939bee4ae0 (1).png"
+            alt="hero image"
+            width={410}
+            height={410}
+            className="w-[260px] h-[260px] lg:w-[410px] lg:h-[410px] object-contain"
+            priority
+          />
         </motion.div>
       </div>
     </section>

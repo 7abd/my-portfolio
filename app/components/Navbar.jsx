@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { LockKeyholeIcon } from "lucide-react";
 
 const navLinks = [
   {
@@ -30,7 +31,15 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <div className="flex items-center gap-2 group cursor-pointer">
+  <div className="w-8 h-8 bg-cyan-500/10 border border-cyan-500/50 rounded flex items-center justify-center group-hover:bg-cyan-500/20 transition-all">
+    <LockKeyholeIcon className="w-4 h-4 text-cyan-400" /> 
+  </div>
+  
+  <span className="font-semibold text-lg tracking-tight">
+    darkaoui<span className="text-gray-500 font-light">.org</span>
+  </span>
+</div>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

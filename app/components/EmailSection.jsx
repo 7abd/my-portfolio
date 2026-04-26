@@ -16,15 +16,11 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
-    // Form the request for sending data to the server.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
@@ -60,11 +56,11 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/abden-d-2b2873356/">
             <Image src='/linkedin-image2.jpg' width={50} height={50} style={{ borderRadius: "40%" }} alt="Linkedin Icon" />
           </Link>
-            <Link href="https://www.discord.com">
+            <Link href="https://discordapp.com/users/1438288673039974531">
             <Image src='/discord-image2.jpg' width={50} height={50} style={{ borderRadius: "40%" }} alt="Discord Icon" />
           </Link>
            <Link href="https://wa.me/212708132603">
-            <Image src='/whtsp-image2.jpg' width={50} height={50} style={{ borderRadius: "50%" }} alt="WhatsApp Icon" />
+            <Image src='/whtsp-image3.jpg' width={50} height={50} style={{ borderRadius: "50%" }} alt="WhatsApp Icon" />
           </Link>
         </div>
       </div>
