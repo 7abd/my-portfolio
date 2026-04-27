@@ -54,13 +54,16 @@ const HeroSection = () => {
             >
               Contact Me
             </Link>
-            <Link
-              href="https://drive.google.com/file/d/1LJu1D3jXfDB2UpQkZntuqODGkaMg8-CQ/view?usp=drive_link"
+             <a
+             href="/abdennour_darkaoui_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 rounded-full border border-blue-500 text-blue-500 
-                         font-semibold hover:bg-blue-600 hover:text-white transition"
-            >
-              Download CV
-            </Link>
+             font-semibold hover:bg-blue-600 hover:text-white transition"
+                >
+                  View Resume
+                </a>
+            
           </div>
         </motion.div>
 
