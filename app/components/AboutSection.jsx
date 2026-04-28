@@ -76,10 +76,10 @@ const AboutSection = () => {
                    
                    rounded-r-2xl overflow-hidden border border-white/10 shadow-2xl">
       <Image
-        src="/decoration2.jpeg"
+        src="/decoration5.png"
         alt="Developer workspace"
         fill
-        className="object-fit "
+        className="object-fit"
         sizes="(max-width: 768px) 100vw, 50vw" 
         priority
       />
