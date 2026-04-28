@@ -76,7 +76,7 @@ const AboutSection = () => {
                    
                    rounded-r-2xl overflow-hidden border border-white/10 shadow-2xl">
       <Image
-        src="/decoration5.png"
+        src="/decoration6.png"
         alt="Developer workspace"
         fill
         className="object-fit"
