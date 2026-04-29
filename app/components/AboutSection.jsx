@@ -9,9 +9,9 @@ const TAB_DATA = [
       content: (
         <ul className="list-disc pl-2">
           <li><strong>Frontend:</strong> React, Next.js(App Router), TypeScript, Tailwind CSS</li>
-          <li><strong>Backend:</strong>Supabase (Auth/Database), : Next.js Route Handlers (Server-Side), REST APIs</li>
+          <li><strong>Backend:</strong>Supabase (Auth/Database),Next.js Route Handlers (Server-Side), REST APIs</li>
           <li><strong>Security:</strong> Web Crypto API (AES-GCM, PBKDF2)</li>
-          <li><strong>Architecture:</strong> Zero-Knowledge Architecture, Context API (State Management)</li>
+          <li><strong>Architecture:</strong> Zero-Knowledge Architecture, Context API (State Management),Scalable Systems</li>
         </ul>
       ),
     },
