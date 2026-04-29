@@ -8,10 +8,10 @@ const TAB_DATA = [
       id: "skills",
       content: (
         <ul className="list-disc pl-2">
-          <li><strong>Frontend:</strong> React, Next.js, TypeScript, Tailwind CSS</li>
-          <li><strong>Backend:</strong> Node.js, Express, Supabase, REST APIs</li>
+          <li><strong>Frontend:</strong> React, Next.js(App Router), TypeScript, Tailwind CSS</li>
+          <li><strong>Backend:</strong>Supabase (Auth/Database), : Next.js Route Handlers (Server-Side), REST APIs</li>
           <li><strong>Security:</strong> Web Crypto API (AES-GCM, PBKDF2)</li>
-          <li><strong>Architecture:</strong> Zero-Knowledge, Clean Code, Context API</li>
+          <li><strong>Architecture:</strong> Zero-Knowledge Architecture, Context API (State Management)</li>
         </ul>
       ),
     },

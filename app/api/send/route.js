@@ -15,10 +15,8 @@ export async function POST(req, res) {
       text: `New message from ${email}\n\n${message}`,
     });
 
-console.log("Resend response:", data);
 return NextResponse.json(data);
 
-    return NextResponse.json(data);
   } catch (error) {
     return NextResponse.json({ error });
   }
