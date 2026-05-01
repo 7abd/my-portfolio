@@ -49,16 +49,14 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-8">
           <Link href="https://github.com/7abd">
             <Image src='/github-image2.jpg' width={50} height={50} style={{ borderRadius: "50%" }} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/abden-d-2b2873356/">
             <Image src='/linkedin-image2.jpg' width={50} height={50} style={{ borderRadius: "40%" }} alt="Linkedin Icon" />
           </Link>
-            <Link href="https://discordapp.com/users/1438288673039974531">
-            <Image src='/discord-image2.jpg' width={50} height={50} style={{ borderRadius: "40%" }} alt="Discord Icon" />
-          </Link>
+           
            <Link href="https://wa.me/212708132603">
             <Image src='/whtsp-image3.jpg' width={50} height={50} style={{ borderRadius: "50%" }} alt="WhatsApp Icon" />
           </Link>

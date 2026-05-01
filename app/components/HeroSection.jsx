@@ -55,7 +55,7 @@ const HeroSection = () => {
               Contact Me
             </Link>
              <a
-             href="/Abdennour_Darkaoui_Resume_.pdf"
+             href="/Abdennour_Darkaoui-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full border border-blue-500 text-blue-500 
