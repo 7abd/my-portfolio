@@ -11,7 +11,7 @@ const projectsData = [
       "A responsive e-commerce front end inspired by Amazon—product browsing, cart-style flows, and a polished UI built with React and Tailwind CSS. Focused on layout, spacing, and component structure for a production-like shopping experience.",
     image: "/project-amazon-clone.png",
     gitUrl: "https://github.com/7abd/amazon___clone",
-    previewUrl: "https://amazon-clone-4eab.vercel.app/",
+    previewUrl: "https://amazon-clone-4eab-git-main-abdennour2.vercel.app/",
   },
   {
     id: 4,
